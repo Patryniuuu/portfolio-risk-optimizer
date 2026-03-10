@@ -33,6 +33,8 @@ if run_button:
 
 if st.session_state.analiza_uruchomiona:
     tickers_list = [ticker.strip() for ticker in tickers_input.split(',')]
+    if "^GSPC" not in tickers_list:
+        tickers_list.append("^GSPC")
     
     with st.spinner("Pobieranie danych z Yahoo Finance..."):
         prices = dl.fetch_stock_data(tickers_list, start_date, end_date)
