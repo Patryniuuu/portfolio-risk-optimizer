@@ -2,7 +2,7 @@
 
 An interactive web application built with Python and Streamlit that allows users to perform advanced quantitative analysis and optimize their stock portfolios based on Modern Portfolio Theory (MPT).
 
-🔗 **[Live Demo: Try the App Here]** *(Replace this with your Streamlit Cloud link once deployed)*
+🔗 **[Live Demo:(https://portfolio-risk-optimizer-pk.streamlit.app/)]**
 
 ## 🧠 Key Features
 
