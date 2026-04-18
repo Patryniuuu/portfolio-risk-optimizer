@@ -16,7 +16,7 @@ st.sidebar.header("Parametry Analizy")
 
 tickers_input = st.sidebar.text_input(
     "Podaj tickery spółek (oddzielone przecinkiem):", 
-    value="AAPL, MSFT, NVDA, KO, JNJ"
+    value="AAPL, MSFT, NVDA, KO"
 )
 
 start_date = st.sidebar.date_input("Data początkowa", datetime.date(2021, 1, 1))
